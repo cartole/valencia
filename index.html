@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valencia CF - Página Oficial de Fans</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./assets/images/valencia.webp">
+</head>
+<body>
+    <header>
+        <img src="./assets/images/valencia.webp" alt="Logo Valencia CF" class="logo">
+        <h1>Valencia Club de Fútbol</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#jugadores">Jugadores</a></li>
+                <li><a href="#estadio">Estadio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="historia">
+        <h2>Historia del Club</h2>
+        <p>Fundado en 1919, el Valencia CF es uno de los clubes más exitosos del fútbol español. Ha ganado múltiples Ligas, Copas del Rey y ha tenido un papel destacado en competiciones europeas.</p>
+        <img class="copita" src="./assets/images/copa.webp" alt="Valencia celebrando la Copa del Rey 2019">
+    </section>
+
+    <section id="jugadores">
+        <h2>Jugadores Destacados</h2>
+        <div class="jugadores">
+            <div class="jugador">
+                <img src="./assets/images/hugo.webp" alt="Jugador 1">
+                <h3>HUGO DURO</h3>
+                <p>Posición: Delantero</p>
+            </div>
+            <div class="jugador">
+                <img src="./assets/images/enz5.webp" alt="Jugador 2">
+                <h3>Enzo Barrenechea</h3>
+                <p>Posición: Centrocampista</p>
+            </div>
+            <div class="jugador">
+                <img src="./assets/images/mamard.webp" alt="Giorgi Mamardashvilli">
+                <h3>Giorgi Mamardashvili</h3>
+                <p>Posición: Portero</p>
+            </div>
+            <!-- Puedes añadir más jugadores aquí -->
+        </div>
+    </section>
+
+    <section id="estadio">
+        <h2>Estadio de Mestalla</h2>
+        <p>El estadio Mestalla, inaugurado en 1923, es el hogar del Valencia CF. Tiene capacidad para más de 48,000 espectadores y es conocido por su atmósfera intensa y cercana al campo.</p>
+        <img class="copita" src="./assets/images/mestalla.webp" alt="Estadio de Mestalla">
+        <h2>Video Nou Mestalla</h2>
+
+        <video class="nou" width="640" height="360" controls>
+            <source src="./assets/video/nou_mesta.mp4" type="video/mp4">
+            Tu navegador no soporta este video
+        </video>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <img  src="./assets/images/p25.webp" alt="Imagen 1">
+            <img src="./assets/images/copa.webp" alt="Imagen 2">
+            <img src="./assets/images/cami.webp" alt="Imagen 3">
+            <img src="./assets/images/mestalla.webp" alt="Imagen 4">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Página Fan Carlos del Valencia CF</p>
+    </footer>
+</body>
+</html>
